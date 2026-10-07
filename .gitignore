@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# 运行数据与产物（首次运行或 scripts/ 下脚本自动生成）
+data/
+backend/data/
+*.db
+*.sqlite3
+*.log
+
+# 临时文件与下载分片
+*.tmp
+*.part
+*.parts/
+*.crdownload
+
+# 本地模型路径记录（各机器不同）
+qwen_path.txt
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
